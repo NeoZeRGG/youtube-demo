@@ -1,0 +1,33 @@
+.video {
+  display: flex;
+  margin-bottom: 32px;
+}
+.video_grid {
+  flex-direction: column;
+}
+
+.video__info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+.video__info_grid {
+  padding: 8px 0 0 0;
+}
+
+.video__frame {
+  width: 157px;
+  height: 88px;
+  border: 1px solid #1390E5;
+}
+.video__frame_grid {
+  width: 100%;
+  height: 138px;
+}
+
+.video__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}

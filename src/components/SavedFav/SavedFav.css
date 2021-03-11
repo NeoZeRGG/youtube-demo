@@ -1,0 +1,21 @@
+.saved-fav {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #1390e5;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.saved-fav__buttons {
+  display: flex;
+}
+
+.saved-fav__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}

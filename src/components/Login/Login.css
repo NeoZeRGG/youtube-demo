@@ -1,0 +1,26 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login__form {
+  background: #fff;
+  border: 1px solid rgba(39, 39, 39, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 510px;
+  height: 520px;
+  padding: 40px 88px 60px;
+}
+
+.login__button {
+  width: 176px;
+}
+
+.login__logo {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 20px;
+}

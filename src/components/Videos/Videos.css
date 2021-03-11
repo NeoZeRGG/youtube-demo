@@ -1,0 +1,15 @@
+.videos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.videos_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 226px);
+  grid-template-rows: repeat(auto-fill, 245px);
+  grid-auto-rows: 245px;
+  grid-auto-columns: 226px;
+  grid-gap: 20px;
+}

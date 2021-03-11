@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  background: #fff;
+  border-bottom: 1px solid #F1F1F1;
+}
+.header__logo {
+  width: 48px;
+  height: 48px;
+}
+.header__left {
+  display: flex;
+}
+
+.header__button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: #1390E5;
+}

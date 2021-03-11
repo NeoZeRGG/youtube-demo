@@ -1,0 +1,10 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 220px 377px;
+}
+
+.search__title {
+  padding-bottom: 50px;
+}

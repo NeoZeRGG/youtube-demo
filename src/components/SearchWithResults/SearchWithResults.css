@@ -1,0 +1,55 @@
+.search-result {
+  padding: 40px 200px;
+  position: relative;
+}
+
+.search-result__title {
+  text-align: left;
+}
+
+.search-result__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.search-result__information {
+  display: flex;
+}
+.search-result__buttons {
+  display: flex;
+}
+
+.search-result__information {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.search-result__information p {
+  padding-right: 10px;
+}
+
+.search-result__button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.search-result__select {
+  position: absolute;
+  top: 108px;
+  right: 290px;
+  z-index: 2;
+}
+
+.search-result__add {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
