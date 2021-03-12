@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Menu } from "antd";
 import { NavLink, useLocation } from "react-router-dom";
 import "./Header.css";
-import logo from "../../vendor/images/sibdev-logo.jpg";
+import logo from "../../styles/images/sibdev-logo.jpg";
 
 function Header({ onSignOut }) {
   const [current, setCurrent] = useState('');

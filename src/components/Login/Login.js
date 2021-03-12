@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
-import logo from "../../vendor/images/sibdev-logo.jpg";
+import logo from "../../styles/images/sibdev-logo.jpg";
 import { Form, Input, Button } from "antd";
 import "antd/dist/antd.css";
 import "./Login.css";
