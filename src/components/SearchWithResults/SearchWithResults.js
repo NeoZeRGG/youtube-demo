@@ -14,7 +14,6 @@ function SearchWithResults({
   inputValue,
   setInputValue,
   youtubeSearch,
-  totalVideos,
   data,
   user,
   savedList,
